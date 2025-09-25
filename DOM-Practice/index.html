@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css"/>
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-box">
+            <div id="quiz">
+                <h1>Javascript Quiz App</h1>
+                <div class="quiz-header">
+                    <p id="progress">Question x of y</p>
+                    <p id="count-down">60 seconds</p>
+                </div>
+                <p id="question"></p>
+                <div class="buttons">
+                    <button class="btn" id="btn0">A.<span id="choice0"></span></button>
+                    <button class="btn" id="btn1">B.<span id="choice1"></span></button>
+                    <button class="btn" id="btn2">C.<span id="choice2"></span></button>
+                   <!--  <button class="btn" id="btn3">D.<span id="choice3"></span></button> -->
+                </div>
+                <hr/>
+                <div class="footer">
+                    <p id="footer">@copyright information</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
